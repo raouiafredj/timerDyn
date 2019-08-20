@@ -1,0 +1,46 @@
+.time-container {
+    text-align: center;
+}
+.time-inner-container {
+    display: inline-block;
+}
+.time-digits {
+    font-size: 4em;
+}
+.time-text {
+    display: flex;
+    justify-content: space-around;
+    color: grey;
+}
+
+input{
+    
+    
+  
+    border:none;
+    width:111px;
+    height:32px;
+    background-color: white;
+    color:black;
+   
+  cursor: pointer;
+
+}
+
+input [type="button"]:hover{
+	color:white;
+	-moz-box-shadow: 0px 0px 10px #343434;
+	-webkit-box-shadow: 0px 0px 10px #343434;
+	-o-box-shadow: 0px 0px 10px #343434;
+	box-shadow: 0px 0px 10px #343434;
+	border: 1px solid #656565;
+    background:black;
+ display: block;
+}
+
+.btn-timer{
+
+margin:25px;
+display: flex;
+justify-content: center;
+}
